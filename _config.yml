@@ -78,3 +78,9 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Security
+## Docs: https://github.com/MikeCoder/hexo-blog-encrypt
+encrypt:
+    enable: true
+
