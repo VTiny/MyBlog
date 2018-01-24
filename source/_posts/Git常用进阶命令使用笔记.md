@@ -1,11 +1,12 @@
 ---
+
 title: Git常用进阶命令使用笔记
 date: 2018/1/10
 updated: 2018/1/10
 comments: true
 tags: Git
 categories: Tools
-
+id: git-advanced-command-note
 ---
 
 本文记录了使用git过程中常用的命令，因git基础命令多数人都知道，所以把常用的进阶命令写在前面，也当作是自己的笔记。文章中间有几个使用git遇到的小问题，还挺有意思，给出我的解决方案作为参考～
@@ -13,7 +14,7 @@ categories: Tools
 <!---more--->
 
 > 建议多查官网  
-> 
+>
 > https://git-scm.com/book  
 > https://git-scm.com/book/zh/v2
 
@@ -111,6 +112,8 @@ git branch --set-upstream dev origin/master
 git push origin dev
 #-f
 git push -f origin dev      #将本地dev分支强行push到远端，冲突强行覆盖（保护的分支需要权限）
+#如果本地分支名和远程目标分支名不同
+git push origin HEAD:master
 ```
 
 #### 10. 删除

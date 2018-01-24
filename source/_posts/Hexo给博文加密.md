@@ -1,10 +1,13 @@
 ---
+
 title: Hexo给博文加密
 date: 2018/1/11
 updated: 2018/1/11
 comments: true
 tags: Hexo
 categories: Tools
+id: hexo-encrypt-blog
+
 ---
 
 博客当然也要有记录生活的功能，怎么能放心的记(tu)录(cao)生活而不担心被陌生人看到呢，那就需要对博文进行加密了。本文介绍了使用hexo-blog-encrypt插件完成对博文进行加密的方式，可以放心的写一些羞羞的事情了~
@@ -53,7 +56,7 @@ message: 输入密码上方的提示
 
 ### 4. live demo
 
-demo: [博文加密测试](http://liushaox.com/2018/01/11/博文加密测试/) , 密码是**liushaoxia**
+demo: [博文加密测试](http://liushaox.com/blog/hexo-encrypt-blog-example/) , 密码是**liushaox**
 
 ### 5. 高阶使用方式
 
