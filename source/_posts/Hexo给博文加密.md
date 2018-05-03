@@ -1,13 +1,11 @@
 ---
-
-title: Hexo给博文加密
+title: 如何给博文加密
 date: 2018/1/11
 updated: 2018/1/11
 comments: true
 tags: Hexo
 categories: Tools
 id: hexo-encrypt-blog
-
 ---
 
 博客当然也要有记录生活的功能，怎么能放心的记(tu)录(cao)生活而不担心被陌生人看到呢，那就需要对博文进行加密了。本文介绍了使用hexo-blog-encrypt插件完成对博文进行加密的方式，可以放心的写一些羞羞的事情了~

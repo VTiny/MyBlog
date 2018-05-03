@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: SiriusLiu's Blog
-subtitle: 
-description: learning & life
-author: Sirius Liu
+title: LiuShaox's Blog
+subtitle: 一杯敬故乡，一杯敬远方
+description: 
+author: Liu Xia
 language: zh-Hans
 timezone:
 
@@ -84,4 +84,17 @@ deploy:
 ## Docs: https://github.com/MikeCoder/hexo-blog-encrypt
 encrypt:
     enable: true
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# local search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
