@@ -184,7 +184,7 @@ Android & iOS
 
 ![20180512152611559988587.png](http://7xravb.com1.z0.glb.clouddn.com/20180512152611559988587.png)
 
-> 这老哥生活应该挺丰富……
+> 这老哥生活应该挺丰富多彩……
 
 > back in those early days Google was perhaps the only company in the world investing in both AI and self-driving technology at the same time 
 
@@ -198,7 +198,7 @@ Android & iOS
 
 
 
-![20180512152611631387247.png](http://7xravb.com1.z0.glb.clouddn.com/20180512152611631387247.png)
+![20180512152612022633812.gif](http://7xravb.com1.z0.glb.clouddn.com/20180512152612022633812.gif)
 
 
 
