@@ -3,7 +3,7 @@ title: 使用AS新建工程preDebugAndroidTestBuild报错
 date: 2018-07-29
 update: 2018-07-29
 comments: true
-tags: [Android Studio, AS, gradle]
+tags: [Android Studio, AS, Gradle]
 categories: Android
 id: android-studio-new-project-build-failed-preDebugAndroidTestBuild
 ---

@@ -3,7 +3,7 @@ title: Google I/O 2018  - (一) Keynote
 date: 2018-05-12 13:30:12
 update: 2018-05-12 17:33:00
 comments: true
-tags: [Android, Sight, Google I/O]
+tags: [Android, Sight, Google I/O 2018]
 categories: Sight
 id: google-io-2018-1-keynote
 ---
