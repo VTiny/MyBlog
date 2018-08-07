@@ -29,5 +29,6 @@ Android历史版本信息，code name & version & API level & release date
 | Marshmallow        | 6.0     | 23        | 2015.10.05   |
 | Nougat             | 7.0-7.1 | 24-25     | 2016.08.22   |
 | Oreo               | 8.0     | 26        | 2017.08.21   |
-| P                  | 9.0     |           |              |
+|                    | 8.1     | 27        | 2017.12      |
+| Pie                | 9       | 28        | 2018.08.07   |
 
