@@ -10,7 +10,7 @@ id: android-api-history-version
 Android历史版本信息，code name & version & API level & release date
 <!---more---> 
 
-
+> 参考来源 [谷歌开发者官网：SDK Platform release notes](https://developer.android.com/studio/releases/platforms)
 
 | Code name          | Version | API level | Release date |
 | ------------------ | ------- | --------- | ------------ |
