@@ -11,9 +11,8 @@ id: google-io-2018-1-keynote
 
 <!---more--->
 
-# Google I/O 2018
+# Google I/O 2018 - Keynote
 
-## 一. Keynote
 I/O大会官网：https://events.google.com/io
 
 视频链接：https://www.youtube.com/watch?time_continue=441&v=ogfYd705cRs
