@@ -11,6 +11,8 @@ id: google-io-2018-1-keynote
 
 <!---more--->
 
+> 文内图片找回中，七牛真坑，图片原外链不让访问，还不让下载
+
 # Google I/O 2018 - Keynote
 
 I/O大会官网：https://events.google.com/io

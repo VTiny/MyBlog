@@ -16,6 +16,8 @@ Error:Execution failed for task ':app:preDebugAndroidTestBuild'.
 
 <!---more--->
 
+> 文内图片找回中，七牛真坑，图片原外链不让访问，还不让下载
+
 ### 原因排查
 
 >  吐槽：讲道理，怎么编译器新建一个默认工程还能报错啊，好吧，解决它

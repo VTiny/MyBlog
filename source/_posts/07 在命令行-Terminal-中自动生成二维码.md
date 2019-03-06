@@ -64,4 +64,4 @@ echo $message | qrencode -o - -t UTF8
 
 ### 运行效果
 
-![20180601152785000418328.png](http://7xravb.com1.z0.glb.clouddn.com/20180601152785000418328.png)
+![image-20190306111207633](../images/image-20190306111207633.png)
