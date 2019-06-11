@@ -1,0 +1,6 @@
+[submodule "github.io"]
+	path = github.io
+	url = https://github.com/MrLiuxia/mrliuxia.github.io.git
+[submodule "next"]
+	path = themes/next
+	url = https://github.com/theme-next/hexo-theme-next
