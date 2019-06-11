@@ -89,6 +89,10 @@ git checkout -b feature/dev_liuxiao
 git checkout -b feature/dev_liuxiao --track origin/master #基于远程跟踪分支master创建本地分支
 ```
 
+> `-b` 参数的意义是什么？
+>
+> - 创建分支，若本地无此分支，会报错
+
 #### 9. pull/fetch/push
 
 ```shell
@@ -115,6 +119,12 @@ git push -f origin dev      #将本地dev分支强行push到远端，冲突强�
 #如果本地分支名和远程目标分支名不同
 git push origin HEAD:master
 ```
+
+> `-u` 参数的意义是什么？
+>
+> - 在push的同时，设置了远程关联分支
+>
+> - `git push -u origin feature/webView`相当于`git push origin feature/webView; git branch —set-upstream-to=origin/feature/webView feature/webView`
 
 #### 10. 删除
 
