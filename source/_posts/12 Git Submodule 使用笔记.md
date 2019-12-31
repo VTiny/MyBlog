@@ -1,6 +1,6 @@
 ---
 title: Git Submodule 使用笔记
-date: 2019-08-16
+date: 2019-03-05
 update: 2019-08-16
 comments: true
 tags: Git
@@ -31,7 +31,7 @@ git submodule add ${submoduleRepositoryUrl}
 
 ![image-20190816141645823](/images/image-20190816141645823.png)
 
-### 2. 更新子模块
+### 2. 更新子模块`
 
 #### 方式1 直接在主工程下更新子模块
 
