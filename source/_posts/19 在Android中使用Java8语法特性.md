@@ -8,7 +8,11 @@ categories: Android
 id: use-java8-features-in-android
 ---
 
+可以在 Android 原生开发中写 Lambda 了，简直不要太舒服好吧 🚀
+
 <!---more--->
+
+
 
 ### Android and Java
 

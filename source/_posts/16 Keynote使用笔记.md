@@ -8,6 +8,12 @@ categories: Tools
 id: note-keynote
 ---
 
+因为以前 Keynote 用得不错、macOS 上的 PPT 用着是在不舒服，所以记录下遇到问题的解决方式和一些小技巧
+
+<!---more--->
+
+
+
 #### 在演示期间显示鼠标
 
 按下 `c` 键

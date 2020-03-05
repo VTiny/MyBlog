@@ -14,6 +14,8 @@ id: idea-as-shortcuts
 
 <!---more--->
 
+
+
 #### 查找类
 
  `Command + O`

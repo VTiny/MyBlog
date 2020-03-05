@@ -13,6 +13,8 @@ id: shell-programming-note
 
 <!---more--->
 
+
+
 ## Shell命令篇
 
 > 一些常见的就不列举出来了，如`ls` `cd`等

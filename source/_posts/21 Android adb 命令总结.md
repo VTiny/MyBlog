@@ -10,6 +10,8 @@ id: android-adb-command-summary
 Android Debug Bridge (adb) 是 Android 开发中常用的命令行工具，可以与设备进行通信。本文记录了常用的 adb 命令，其中重点会用 ❗️ 标出，“骚操作”会用 🌟 标出
 <!---more--->
 
+
+
 > [官方文档 - Android Debug Bridge](https://developer.android.com/studio/command-line/adb)
 
 ## 一. 工作环境
