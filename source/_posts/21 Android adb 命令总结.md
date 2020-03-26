@@ -223,6 +223,9 @@ ${device_ip}:5555    device product:EVA-TL00 model:EVA_TL00 device:HWEVA transpo
 ```shell
 ➜  ~ adb shell am display-size [reset | ${width}x${height}]
 ➜  ~ adb shell am display-size 1280x880
+
+# 若无效可使用 wm 命令
+➜  ~ adb shell wm size [reset | ${width}x${height}]
 ```
 
 ##### 7.2.9 替换设备显示密度 🌟
@@ -230,6 +233,9 @@ ${device_ip}:5555    device product:EVA-TL00 model:EVA_TL00 device:HWEVA transpo
 ```shell
 ➜  ~ adb shell am display-density ${dpi}
 ➜  ~ adb shell am display-density 480
+
+# 若无效可使用 wm 命令
+➜  ~ adb shell wm density [reset | ${dpi}]
 ```
 
 > [所有可用的 Actiivty 管理器命令](https://developer.android.com/studio/command-line/adb#am)

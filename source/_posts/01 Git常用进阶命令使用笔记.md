@@ -132,6 +132,7 @@ git push origin HEAD:master
 git clean -f      #删除untracked files
 git clean -f -n   #查看会删除的files
 git clean -f -d   #删除untracked文件夹
+git clean -df			#可简写
 ```
 
 #### 11. log
