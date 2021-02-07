@@ -1,5 +1,5 @@
 ---
-title: Android adb 命令总结
+title: Android ADB 命令总结
 date: 2020-03-04
 update: 2020-03-04
 comments: true
