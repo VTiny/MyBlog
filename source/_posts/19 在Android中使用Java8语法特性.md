@@ -70,11 +70,11 @@ public class HelloLambda {
 
 使用  `javac HelloLambda.java` 命令编译，结果如下
 
-<img src="/images/image-20191231142159833.png" alt="image-20191231142159833" style="zoom: 50%;" />
+<img src="../images/image-20191231142159833.png" alt="image-20191231142159833" style="zoom: 50%;" />
 
 可以看到还是有箭头符号的，使用 `javap -c -p HelloLambda` 命令进行反汇编，结果如下
 
-<img src="/images/image-20191231142429303.png" alt="image-20191231142429303" style="zoom: 50%;" />
+<img src="../images/image-20191231142429303.png" alt="image-20191231142429303" style="zoom: 50%;" />
 
 可以看到其中有一条 `invokedynamic` 调用方法指令，我们知道 JVM 中调用方法一共有五种指令，其余四种为：
 
@@ -91,27 +91,27 @@ public class HelloLambda {
 
 使用 `javap  -v HelloLambda.class` 查看本地变量表，结果如下
 
-<img src="/images/image-20191231142628776.png" alt="image-20191231142628776" style="zoom:50%;" />
+<img src="../images/image-20191231142628776.png" alt="image-20191231142628776" style="zoom:50%;" />
 
 对应到了常量池中这一条数据，注意常量池中的 `InvokeDynamic` 不是指令，代表的是 `Constant InvokeDynamic Info`结构，后面紧跟的 `#0` 标识的是 `BootstrapMethod` 区域中引导方法的索引：
 
-<img src="/images/image-20191231142732850.png" alt="image-20191231142732850" style="zoom:50%;" />
+<img src="../images/image-20191231142732850.png" alt="image-20191231142732850" style="zoom:50%;" />
 
 可以发现引导方法中的  `java/lang/invoke/LambdaMetafactory.metafactory`，才是 `invokedynamic` 指令执行过程中的关键步骤，源码如下：
 
-<img src="/images/image-20191231142827188.png" alt="image-20191231142827188" style="zoom: 45%;" />
+<img src="../images/image-20191231142827188.png" alt="image-20191231142827188" style="zoom: 45%;" />
 
-<img src="/images/image-20191231142922291.png" alt="image-20191231142922291" style="zoom:45%;" />
+<img src="../images/image-20191231142922291.png" alt="image-20191231142922291" style="zoom:45%;" />
 
 可以发现，执行该方法，会在内存中动态生成一个实现 Lambda 表达式对应函数式接口的实例类型，并在接口的实现方法中调用新增的静态私有方法
 
 运行 `java -Djdk.internal.lambda.dumpProxyClasses HelloLambda.class`，将内存中动态生成的类型输出到本地（⚠️ 需要在项目根目录 src 下执行此命令）
 
-<img src="/images/image-20191231143117751.png" alt="image-20191231143117751" style="zoom:50%;" />
+<img src="../images/image-20191231143117751.png" alt="image-20191231143117751" style="zoom:50%;" />
 
 运行 `javap -p -c HelloLambda\$\$Lambda\$1` 反编译，可以看到生成累的实现为
 
-<img src="/images/image-20191231143229176.png" alt="image-20191231143229176" style="zoom:45%;" />
+<img src="../images/image-20191231143229176.png" alt="image-20191231143229176" style="zoom:45%;" />
 
 在 run 方法中使用了 invokestatic 指令，直接调用了 `HelloLambda.lambda\$main\$0` 这个在编译期间生成的静态私有方法
 
@@ -121,13 +121,13 @@ public class HelloLambda {
 
 Java Bytecode, JVM 字节码，是不能直接运行在 Android 系统上的，需要转换成 Android Bytecode，也就是 Dalvik / ART 字节码
 
-![image-20191231104544007](/images/image-20191231104544007.png)
+![image-20191231104544007](../images/image-20191231104544007.png)
 
 ### Android support indirectly
 
 因此 Android 进行了间接支持，在 Java 字节码转换到 Android 字节码的过程中增加一个步骤，把字节换转换为 Android 虚拟机支持的字节码，这个过程可以称为 **脱糖 (Desugar)**
 
-![image-20191231104735897](/images/image-20191231104735897.png)
+![image-20191231104735897](../images/image-20191231104735897.png)
 
 无论是之前的 Jack & Jill 工具，还是现在的 D8 dex 编译器，处理方式都是类似的：在流程上，增加脱糖的过程；在原理上，参考 Lambda 在 Java 底层的实现，把这些实现移植到插件或编译器工具中
 

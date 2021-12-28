@@ -64,4 +64,4 @@ echo $message | qrencode -o - -t UTF8
 
 ### 运行效果
 
-![image-20190306111207633](/images/image-20190306111207633.png)
+![image-20190306111207633](../images/image-20190306111207633.png)

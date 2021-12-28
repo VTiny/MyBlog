@@ -31,7 +31,7 @@ git submodule add ${submoduleRepositoryUrl}
 
 运行后会将添加的子模块仓库clone到工程中，完成后会自动出现`.gitmodules`配置文件，格式如下
 
-![image-20190816141645823](/images/image-20190816141645823.png)
+![image-20190816141645823](../images/image-20190816141645823.png)
 
 ### 2. 更新子模块`
 
