@@ -7,13 +7,13 @@ tags: [Android, Sight, Google I/O 2018]
 categories: Sight
 id: google-io-2018-1-keynote
 ---
-2018年Google I/O大会5月8日–5月10日[美国加利福尼亚州芒廷维尤海岸线圆形剧场](https://www.google.co.jp/search?newwindow=1&q=Shoreline+Amphitheatre&stick=H4sIAAAAAAAAAOPgE-LVT9c3NMxISjY2MUpJUeLUz9U3MM_NMkjSEs5OttJPLUvNKym2yslPTizJzM8DALTa4XIxAAAA&sa=X&ved=0ahUKEwjq-eeH8P_aAhWCwrwKHUG7BzgQmxMIqQEoATAP)举行，这一系列文章是观看视频录像的笔记，此文为第一部分，Keynote
+2018年Google I/O大会5月8日–5月10日[美国加利福尼亚州芒廷维尤海岸线圆形剧场](https://www.google.co.jp/search?newwindow=1&q=Shoreline+Amphitheatre&stick=H4sIAAAAAAAAAOPgE-LVT9c3NMxISjY2MUpJUeLUz9U3MM_NMkjSEs5OttJPLUvNKym2yslPTizJzM8DALTa4XIxAAAA&sa=X&ved=0ahUKEwjq-eeH8P_aAhWCwrwKHUG7BzgQmxMIqQEoATAP)举行，这一系列文章是观看视频录像的笔记，此文为Keynote部分
 
 <!---more--->
 
-> 文内图片找回中，七牛真坑，图片原外链不让访问，还不让下载
+> gg, 文内图片找不回来了，七牛真坑，图片原外链不让访问，还不让下载
 
-# Google I/O 2018 - Keynote
+# Google I/O 2018
 
 I/O大会官网：https://events.google.com/io
 

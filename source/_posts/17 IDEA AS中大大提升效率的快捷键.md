@@ -58,39 +58,39 @@ id: idea-as-shortcuts
 
 #### 参数提示 `Command + P`
 
- ![img](https://mmbiz.qpic.cn/mmbiz_gif/v1LbPPWiaSt4pudibXZvFqmVIt9Lb5EwYIDr8eruTRTOTCJsbjsy8eiciaOmB8ju4O5ofry96oF1j5xNtPcekuiczVA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![参数提示](../images/image-20211228232853810.png)
 
 #### 自动提取方法 `Command + Alt + M `
 
-![img](https://mmbiz.qpic.cn/mmbiz_gif/v1LbPPWiaSt4pudibXZvFqmVIt9Lb5EwYIrGZv8OwvPbhByEsibXGlERnBDe6toDKTqrib7icGBGQkha9ljwfsbRO1g/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![自动提取方法](../images/image-20211228232853811.png)
 
 #### 自动提取参数 `Command + Alt + P`
 
-![img](https://mmbiz.qpic.cn/mmbiz_gif/v1LbPPWiaSt4pudibXZvFqmVIt9Lb5EwYId3FpQkjTJAEMToSrtfx60Vrng3mhqjicOH6CudH8aze1DIgKDj8SaGQ/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![自动提取参数](../images/image-20211228232853812.png)
 
-![img](https://mmbiz.qpic.cn/mmbiz_gif/v1LbPPWiaSt4pudibXZvFqmVIt9Lb5EwYI5NPgeZEbFiaZicUmO7ucctPaqicDiapa1iaVehFHLBHAVq6GmIvJEl79sVg/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![img](../images/image-20211228232853813.png)
 
 #### 自动生成变量 `Command + Alt + V`
 
-![img](https://mmbiz.qpic.cn/mmbiz_gif/v1LbPPWiaSt4pudibXZvFqmVIt9Lb5EwYI6ddSw8MibEqibcsOvMeAZypp5pW3hCWzg0A4CdZrB82rD2OtoWg3V0DA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![自动生成变量](../images/image-20211228232853814.png)
 
 #### 包裹代码 `Command + Alt + T`
 
-![img](https://mmbiz.qpic.cn/mmbiz_gif/v1LbPPWiaSt4pudibXZvFqmVIt9Lb5EwYILwnlneqYpRh01adTibBSYiclWTM794clfPEIibLCIPcQc66HXLFBkv95g/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![包裹代码](../images/image-20211228232853815.png)
 
 #### 方法调用层级 `Command + Option + H`
 
-![img](https://mmbiz.qpic.cn/mmbiz_gif/v1LbPPWiaSt4pudibXZvFqmVIt9Lb5EwYIGO5lEqk0wbb5UwicFUgNvcQ8eEqibBMRLkD1TIEM164GWwP7Im2qoFMQ/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![方法调用层级](../images/image-20211228232853816.png)
 
 #### 类的层次结构 `Control + H`
 
-![img](https://mmbiz.qpic.cn/mmbiz_gif/v1LbPPWiaSt4pudibXZvFqmVIt9Lb5EwYIa1JRXEuQBL3QoI5XiaEiaWcbumTkoHT2LzibbjeqrTjgtOic3esUvdTJrw/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![类的层次结构](../images/image-20211228232853817.png)
 
 #### 变量高亮 `Command + Shift + F7`
 
-![img](https://mmbiz.qpic.cn/mmbiz_gif/v1LbPPWiaSt6dg0vgnu1icbsib4Qjic8eCHibYUX8WYwaKqKwSh9lsTQf12jia0ZnxUdlJiaJrlbNejK282qGSKh79eVA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![变量高亮](../images/image-20211228232853818.png)
 
 #### 跳转到父类 `Command + U`
 
-![img](https://mmbiz.qpic.cn/mmbiz_gif/v1LbPPWiaSt6dg0vgnu1icbsib4Qjic8eCHibYUX8WYwaKqKwSh9lsTQf12jia0ZnxUdlJiaJrlbNejK282qGSKh79eVA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![跳转到父类](../images/image-20211228232853819.png)
 

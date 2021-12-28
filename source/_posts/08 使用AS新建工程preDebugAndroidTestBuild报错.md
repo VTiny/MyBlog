@@ -16,7 +16,7 @@ Error:Execution failed for task ':app:preDebugAndroidTestBuild'.
 
 <!---more--->
 
-> 文内图片找回中，七牛真坑，图片原外链不让访问，还不让下载
+> Gg, 文内图片找不回来了，七牛真坑，图片原外链不让访问，还不让下载
 
 ### 原因排查
 
