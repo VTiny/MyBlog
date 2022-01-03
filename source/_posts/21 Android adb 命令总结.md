@@ -82,7 +82,7 @@ B2T7N16711003140       device usb:338690048X product:EVA-TL00 model:EVA_TL00 dev
 ${device_ip}:5555    device product:EVA-TL00 model:EVA_TL00 device:HWEVA transport_id:3
 ```
 
-### 3. 安全应用
+### 3. 安装应用
 
 ```shell
 ➜  ~ adb install ${apk_file_path}
